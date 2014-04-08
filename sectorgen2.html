@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TRAVELLER Sector Generator</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script type="text/javascript" src="wordgen.js"></script>
+  <script type="text/javascript" src="sectorgen2.js"></script>
+  
+  <script type="text/javascript">
+
+        function run() {
+            var output = document.getElementById("output");
+
+            var sector = generateSector();
+
+            output.innerHTML = sector.join("\n", sector);
+        }
+
+        window.onload = run;
+  </script>
+
+</head>
+<body>
+  <h1>Sector Generation for TRAVELLER</h1>
+  <p>
+    Based on Traveller Sector Generator, from Challenge #25. Translation to JavaScript,
+    corrections per The Traveller Book, by Joshua Bell.
+  </p>
+  <hr>
+  <div id="output" style="font-family: monospace; white-space: pre;"></div>
+  <hr>
+  <p>
+    The <b><i>Traveller</i></b> game in all forms is owned by <a href="http://www.farfuture.net">
+      Far Future Enterprises</a>. Copyright &copy; 1977 - 2013 Far Future Enterprises.
+    <b><i>Traveller</i></b> is a registered trademark of Far Future Enterprises. Far
+    Future permits web sites and fanzines for this game, provided it contains this notice,
+    that Far Future is notified, and subject to a withdrawal of permission on 90 days
+    notice. The contents of this site are for personal, non-commercial use only. Any
+    use of Far Future Enterprises's copyrighted material or trademarks anywhere on this
+    web site and its files should not be viewed as a challenge to those copyrights or
+    trademarks. In addition, any program/articles/file on this site cannot be republished
+    or distributed without the consent of the author who contributed it.
+  </p>
+</body>
+</html>

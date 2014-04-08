@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Generation for TRAVELLER</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="wordgen.js"></script>
+</head>
+<body>
+    <h1>Word Generation for TRAVELLER</h1>
+    <p>
+      This page demonstrates a JavaScript implementation of word generation algorithms for
+      anguages in the <b><i>Traveller</i></b> role-playing game. Must be viewed in a browser
+      with scripting enabled. Reload the page to generate new words in each supported language.
+      The itself script can be viewed at: <a href="wordgen.js">wordgen.js</a>
+    </p>
+
+    <hr>
+    <div id="output"></div>
+
+    <p>
+        The <b><i>Traveller</i></b> game in all forms is owned by <a href="http://www.farfuture.net">
+        Far Future Enterprises</a>. Copyright &copy; 1977 - 2013 Far Future Enterprises.
+        <b><i>Traveller</i></b> is a registered trademark of Far Future Enterprises. Far
+        Future permits web sites and fanzines for this game, provided it contains this notice,
+        that Far Future is notified, and subject to a withdrawal of permission on 90 days
+        notice. The contents of this site are for personal, non-commercial use only. Any
+        use of Far Future Enterprises's copyrighted material or trademarks anywhere on this
+        web site and its files should not be viewed as a challenge to those copyrights or
+        trademarks. In addition, any program/articles/file on this site cannot be republished
+        or distributed without the consent of the author who contributed it.
+    </p>
+
+  <script type="text/javascript">
+    (function() {
+      var output = document.getElementById("output");
+      var html = "";
+      for (var lang in Languages) {
+        for (var i = 0; i < 5; ++i) {
+          html += lang + ": " + generateWord(Languages[lang]) + '<br>';
+        }
+        html += "<hr>";
+      }
+      output.innerHTML = html;
+    }());
+</script>
+
+</body>
+</html>

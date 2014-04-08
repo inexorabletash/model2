@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Computing Local Temperature for TRAVELLER Worlds</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+
+function run()
+{
+	var k = 374.025;
+
+	var distance         = parseFloat( document.getElementById( "distance"         ).value, 10 );
+	var albedo           = parseFloat( document.getElementById( "albedo"           ).value, 10 );
+	var luminosity       = parseFloat( document.getElementById( "luminosity"       ).value, 10 );
+	var greenhouseEffect = parseFloat( document.getElementById( "greenhouseEffect" ).value, 10 );
+
+	var g = greenhouseEffect + 1;
+	var t = k * ( 1 - albedo ) * ( Math.sqrt( Math.sqrt( luminosity ) ) / Math.sqrt( distance ) );
+
+	var output = document.getElementById( "output" );
+	output.innerHTML = "";
+	output.innerHTML += "Local Temperature = " + t           + " K<br>"; 
+	output.innerHTML += "Local Temperature = " + (t-273)     + " C<br>"; 
+	output.innerHTML += "Local Temperature = " + (t*g)       + " K with greenhouse effect<br>"; 
+	output.innerHTML += "Local Temperature = " + ((t*g)-273) + " C with greenhouse effect<br>"; 
+}
+    </script>
+  </head>
+  <body>
+    <form action="" onsubmit="run(); return false;">
+      <div>Distance (in AU) <input id="distance"></div>
+      <div>Albedo (Earth=0.3) <input id="albedo"></div>
+      <div>Luminosity (Sol=1) <input id="luminosity"></div>
+      <div>Greenhouse Effect (Earth=0.1) <input id="greenhouseEffect"></div>
+      <div><input type="submit" value="Compute"></div>
+    </form>
+    <div id="output"></div>
+  </body>
+</html>
