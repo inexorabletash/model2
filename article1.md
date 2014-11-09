@@ -52,7 +52,7 @@ far more convenient.
   * Windows: Start > All Programs > Accessories > Notepad
   * Macintosh: Applications > TextEdit, then select Format > Make Plain Text
 * Type in (or copy/paste) the code from Listing 1
-* Save the file as `roll.html`
+* Save the file as `roll.html` to your desktop
 * Double-click the file to open it in your default Web browser
 
 > NOTE: On Windows with Internet Explorer, you may see an alert that the
@@ -67,7 +67,7 @@ Listing 1:
 ```html
 <!DOCTYPE html>
 <title>Roll 1D</title> 
-<script type="text/javascript"> 
+<script> 
   function myprogram() {
     var output = document.getElementById("output_element"); 
     var result = Math.floor( Math.random() * 6 ) + 1;
@@ -110,25 +110,24 @@ Listing 2:
 ```html
 <!DOCTYPE html>
 <title>Computing Local Temperature for TRAVELLER Worlds</title>
-<script type="text/javascript">
-
+<script>
 function run() {
-	var k = 374.025;
+  var k = 374.025;
 
-	var distance         = parseFloat( document.getElementById( "distance"         ).value );
-	var albedo           = parseFloat( document.getElementById( "albedo"           ).value );
-	var luminosity       = parseFloat( document.getElementById( "luminosity"       ).value );
-	var greenhouseEffect = parseFloat( document.getElementById( "greenhouseEffect" ).value );
+  var distance         = parseFloat( document.getElementById( "distance"         ).value );
+  var albedo           = parseFloat( document.getElementById( "albedo"           ).value );
+  var luminosity       = parseFloat( document.getElementById( "luminosity"       ).value );
+  var greenhouseEffect = parseFloat( document.getElementById( "greenhouseEffect" ).value );
 
-	var g = greenhouseEffect + 1;
-	var t = k * ( 1 - albedo ) * ( Math.sqrt( Math.sqrt( luminosity ) ) / Math.sqrt( distance ) );
+  var g = greenhouseEffect + 1;
+  var t = k * ( 1 - albedo ) * ( Math.sqrt( Math.sqrt( luminosity ) ) / Math.sqrt( distance ) );
 
-	var output = document.getElementById( "output" );
-	output.innerHTML = "";
-	output.innerHTML += "Local Temperature = " + t           + " K<br>"; 
-	output.innerHTML += "Local Temperature = " + (t-273)     + " C<br>"; 
-	output.innerHTML += "Local Temperature = " + (t*g)       + " K with greenhouse effect<br>"; 
-	output.innerHTML += "Local Temperature = " + ((t*g)-273) + " C with greenhouse effect<br>"; 
+  var output = document.getElementById( "output" );
+  output.innerHTML = "";
+  output.innerHTML += "Local Temperature = " + t           + " K<br>"; 
+  output.innerHTML += "Local Temperature = " + (t-273)     + " C<br>"; 
+  output.innerHTML += "Local Temperature = " + (t*g)       + " K with greenhouse effect<br>"; 
+  output.innerHTML += "Local Temperature = " + ((t*g)-273) + " C with greenhouse effect<br>"; 
 }
 </script>
 
@@ -139,6 +138,7 @@ function run() {
   <div>Greenhouse Effect (Earth=0.1) <input id="greenhouseEffect"></div>
   <div><input type="submit" value="Compute"></div>
 </form>
+
 <div id="output"></div>
 ```
 
