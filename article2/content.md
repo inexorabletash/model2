@@ -49,9 +49,10 @@ and JavaScript.
 
 In the previous article, all of the program logic and display were
 present in one file. This time, the reusable logic is stored in a
-JavaScript file (`wordgen.js`) and the page-specific display code is
-stored in the HTML file (`wordgen.html`). Let’s look at the JavaScript
-file first.
+JavaScript file ([wordgen.js](wordgen.js)) and the page-specific
+display code is stored in the HTML file
+([wordgen.html](wordgen.html)). Let’s look at the JavaScript file
+first.
 
 To keep things tidy, all of the program data is held inside a
 `Languages` object. An object, or collection of named values, can be
@@ -116,8 +117,8 @@ and interactive generator was published in the next issue that handled
 varying stellar density and allegiances across a sector, and even
 Zhodani relay station placement. We’ll stick to adapting the simpler
 sector generator for this article. Once again, the reusable logic is
-stored in a JavaScript file (`sectorgen.js`) and the page-specific
-display code is stored in the HTML file (`sectorgen.html`).
+stored in a JavaScript file ([sectorgen.js](sectorgen.js)) and the page-specific
+display code is stored in the HTML file ([sectorgen.html](sectorgen.html)).
 
 Basic world generation is much more straightforward than word
 generation. Each world starts off as an empty object. Then each digit
@@ -180,18 +181,18 @@ Finally, change the UWP generation script to include the name:
  uwp += ljust(world.name, 22, " "); // Add this line
 ```
 
-Now, refresh the page and make sure it works. (The `sectorgen2.js` and
-`sectorgen2.html` are the "after" versions, if you want to verify your
-changes.) Since it is only the basic sector generator, all worlds are
-generated with Imperial allegiance and therefore Vilani names are
-used. A more advanced generator would allow interactive specifications
-of allegiances, implement allegiance-specific world generation rules,
+Now, refresh the page and make sure it works. (The
+[sectorgen2.js](sectorgen2.js) and [sectorgen2.html](sectorgen2.html)
+files are the "after" versions, if you want to verify your changes.)
+Since it is only the basic sector generator, all worlds are generated
+with Imperial allegiance and therefore Vilani names are used. A more
+advanced generator would allow interactive specifications of
+allegiances, implement allegiance-specific world generation rules,
 include use a map from allegiances to languages, and use appropriate
 languages to generate the names for each world.
 
 Next Time
 ---------
-
 My two picks for what to tackle next are the extended system
 generation from Book 6, or graphical sector mapping. Have a
 preference? Have a different suggestion? Send me email:
