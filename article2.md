@@ -160,7 +160,7 @@ file, add a function to capitalize the names:
 
 ```js
 function capitalize(word) {
- return word.replace(/^\w/, 
+ return word.replace(/^\w/,
    function(a) { return a.toUpperCase();
   });
 }
@@ -191,9 +191,9 @@ languages to generate the names for each world.
 
 Next Time
 ---------
-My two picks for what to tackle next are the extended
-system generation from Book 6, or graphical sector
-mapping. Have a preference? Have a different
-suggestion? Send me email:
+
+My two picks for what to tackle next are the extended system
+generation from Book 6, or graphical sector mapping. Have a
+preference? Have a different suggestion? Send me email:
 
 inexorabletash@gmail.com
