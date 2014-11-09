@@ -4,24 +4,24 @@ By Joshua Bell
 
 > "Traveller has always been an easy game to mate to a computer."
 
-So begins Marc W. Miller's first entry in a short-lived column in The
-Journal of the Travellers' Aid Society and Challenge magazines, issues
+So begins Marc W. Miller's first entry in a short-lived column in _The
+Journal of the Travellers' Aid Society_ and _Challenge_ magazines, issues
 24, 25 and 26.
 
 A Bit of History
 ----------------
 
-Traveller emerged on the scene in 1977 at the same time as the
+**_Traveller_** emerged on the scene in 1977 at the same time as the
 personal computer, and this revolutionary new tool was instrumental in
-the creation of the Traveller universe. Software was used to generate
+the creation of the **_Traveller_** universe. Software was used to generate
 the sector data for Atlas of the Imperium and other supplements such
-as 1001 Characters and Veterans. GDW even dabbled in selling play aids
-such as Beastiary and WordGen. As noted on the last page of Book 7:
-"As the Merchant Prince trade system was created and tested, extensive
+as _1001 Characters and Veterans_. GDW even dabbled in selling play aids
+such as _Beastiary_ and _WordGen_. As noted on the last page of Book 7:
+_"As the Merchant Prince trade system was created and tested, extensive
 use of a computer simulation helped the designer analyze and
-understand various aspects of the system" and this simulation was
-released in an interactive form as Trader. It is clear that without
-personal computers, the evolution of Traveller would have been quite
+understand various aspects of the system"_ and this simulation was
+released in an interactive form as _Trader_. It is clear that without
+personal computers, the evolution of **_Traveller_** would have been quite
 different.
 
 Typical of the personal computers at the time was the Apple II, and
@@ -32,9 +32,9 @@ Applesoft BASIC. This meant that programs could be listed in magazines
 and typed in by hobbyists, who could learn as they typed and tinker
 with the results. In contrast, software development today often
 involves a whole series of complex and often expensive tools. Asking
-"how do I get started in programming?" often leads to questions such
-as "what language – C++ or Java?" or "what platform – Windows or
-Macintosh?"
+_"how do I get started in programming?"_ often leads to questions such
+as _"what language – C++ or Java?"_ or _"what platform – Windows or
+Macintosh?"_
 
 Is there a simpler way that hearkens back to the "good old days?"
 
@@ -51,8 +51,8 @@ far more convenient.
 * Start a simple text editor
   * Windows: Start > All Programs > Accessories > Notepad
   * Macintosh: Applications > TextEdit, then select Format > Make Plain Text
-* Type in the code from Listing 1
-* Save the file as "roll.html"
+* Type in (or copy/paste) the code from Listing 1
+* Save the file as `roll.html`
 * Double-click the file to open it in your default Web browser
 
 > NOTE: On Windows with Internet Explorer, you may see an alert that the
@@ -81,8 +81,8 @@ Listing 1:
 This is an empty HTML document that provides a blank slate for the
 script to write upon. The script itself can be broken down into two
 pieces – a function, which is a set of instructions, and some glue
-which says "when the browser is done loading the page, run my
-function." This function, called "myprogram", also has two parts. The
+which says _"when the browser is done loading the page, run my
+function."_ This function, called `myprogram`, also has two parts. The
 first finds the blank slate, and the second adds something to it. This
 program provides a very basic Traveller utility – every time you load
 the page, it will compute a new 1D roll result.
@@ -101,7 +101,7 @@ Traveller Utility – Temperature Calculation Revisited
 -----------------------------------------------------
 
 To really kick off this series, let's revisit the very first example
-by Marc W. Miller from JTAS #24 – a utility to compute the average
+by Marc W. Miller from _JTAS #24_ – a utility to compute the average
 local temperature of a world. Unlike the previous example, this one
 requires input from the user:
 
