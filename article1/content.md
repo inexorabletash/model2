@@ -1,4 +1,4 @@
-Using Your Model 2 Bis, Revisited
+Using Your Model/2 bis, Revisited
 =================================
 By Joshua Bell
 
@@ -7,6 +7,7 @@ By Joshua Bell
 So begins Marc W. Miller's first entry in a short-lived column in _The
 Journal of the Travellers' Aid Society_ and _Challenge_ magazines, issues
 24, 25 and 26.
+
 
 A Bit of History
 ----------------
@@ -38,6 +39,7 @@ Macintosh?"_
 
 Is there a simpler way that hearkens back to the "good old days?"
 
+
 A Different Approach
 --------------------
 
@@ -66,16 +68,16 @@ far more convenient.
 Listing 1:
 ```html
 <!DOCTYPE html>
-<title>Roll 1D</title> 
-<script> 
+<title>Roll 1D</title>
+<script>
   function myprogram() {
-    var output = document.getElementById("output_element"); 
+    var output = document.getElementById("output_element");
     var result = Math.floor( Math.random() * 6 ) + 1;
-    output.innerHTML += "Die Roll: " + result; 
+    output.innerHTML += "Die Roll: " + result;
   }
-  window.onload = myprogram; 
-</script> 
-<div id="output_element"></div> 
+  window.onload = myprogram;
+</script>
+<div id="output_element"></div>
 ```
 
 This is an empty HTML document that provides a blank slate for the
@@ -124,10 +126,10 @@ function run() {
 
   var output = document.getElementById( "output" );
   output.innerHTML = "";
-  output.innerHTML += "Local Temperature = " + t           + " K<br>"; 
-  output.innerHTML += "Local Temperature = " + (t-273)     + " C<br>"; 
-  output.innerHTML += "Local Temperature = " + (t*g)       + " K with greenhouse effect<br>"; 
-  output.innerHTML += "Local Temperature = " + ((t*g)-273) + " C with greenhouse effect<br>"; 
+  output.innerHTML += "Local Temperature = " + t           + " K<br>";
+  output.innerHTML += "Local Temperature = " + (t-273)     + " C<br>";
+  output.innerHTML += "Local Temperature = " + (t*g)       + " K with greenhouse effect<br>";
+  output.innerHTML += "Local Temperature = " + ((t*g)-273) + " C with greenhouse effect<br>";
 }
 </script>
 
@@ -141,6 +143,3 @@ function run() {
 
 <div id="output"></div>
 ```
-
-The next article in this series will revisit the basic Traveller
-Sector Generator from Challenge #25.

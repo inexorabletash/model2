@@ -22,8 +22,10 @@ downloaded from: http://travellermap.com/model2/
 The focus of this article will be how to understand, adapt, modify,
 and combine existing scripts to do new things.
 
+
 Word Generation
 ---------------
+
 The creators of Traveller were enthusiastic about creating algorithms
 for many tasks. A prime example of this was the word generation rules
 that were printed in the Classic Traveller Alien Modules. The
@@ -96,18 +98,20 @@ lang.someFunction(…) ) { ... }` – this does nothing if a given language
 doesn’t have `someFunction` defined, and allows language definitions to
 be as compact as possible.
 
-The HTML file includes the JavaScript file with the
-line:
+The HTML file includes the JavaScript file with the line:
 
 ```html
  <script src="wordgen.js"></script>
 ```
+
 This is followed by the script which generates five random words in
 each language and adds them to the page. Press the "Refresh" button in
 your Web browser to keep making new words.
 
+
 Sector Generation
 -----------------
+
 Another frequently printed and updated algorithm was world generation,
 originally described in Classic Traveller _Book 3: Worlds and
 Adventures_, updated in _Book 6: Scouts_, and tweaked and modified by
@@ -144,6 +148,7 @@ page – a new sector each time the page is loaded!
 
 Using Your Model/2 Blender
 --------------------------
+
 Now that we have a way to generate both words and worlds, let’s put
 them together.
 
@@ -155,6 +160,7 @@ near the top of the file:
  <script src="wordgen.js"></script>
  <script src="sectorgen.js"></script>
 ```
+
 Then, modify the sector generator script to call into the word
 generator script to create a name for each world. Near the top of the
 file, add a function to capitalize the names:
@@ -190,11 +196,3 @@ advanced generator would allow interactive specifications of
 allegiances, implement allegiance-specific world generation rules,
 include use a map from allegiances to languages, and use appropriate
 languages to generate the names for each world.
-
-Next Time
----------
-My two picks for what to tackle next are the extended system
-generation from Book 6, or graphical sector mapping. Have a
-preference? Have a different suggestion? Send me email:
-
-inexorabletash@gmail.com
