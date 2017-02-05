@@ -7,7 +7,7 @@ the web environment for creating tools for the Traveller RPG.
 
 So begins Marc W. Miller's first entry in a short-lived column in The Journal of the Travellers' Aid Society and Challenge magazines, issues 24, 25 and 26. This series of articles, published in the Stellar Reaches fanzine revisits the series with the goal of teaching introductory programming to a whole new generation of TRAVELLER players.
 
-## Part 1 (from Stellar Reaches #8)
+## Part 1: Introduction and Temperature Calculation (from Stellar Reaches #8)
 
 [Article](article1/content.md)
 
@@ -15,19 +15,19 @@ So begins Marc W. Miller's first entry in a short-lived column in The Journal of
 
 * [page source](article1/tempcalc.html)
 
-## Part 2 (from Stellar Reaches #10)
+## Part 2: Word and Sector Generation (from Stellar Reaches #10)
 
 [Article](article2/content.md)
-
-[Random Sector Generator](https://inexorabletash.github.io/model2/article2/sectorgen.html)
-
-* [page source](article2/sectorgen.html)
-* [script source](article2/sectorgen.js)
 
 [Random Word Generator](https://inexorabletash.github.io/model2/article2/wordgen.html)
 
 * [page source](article2/wordgen.html)
 * [script source](article2/wordgen.js)
+
+[Random Sector Generator](https://inexorabletash.github.io/model2/article2/sectorgen.html)
+
+* [page source](article2/sectorgen.html)
+* [script source](article2/sectorgen.js)
 
 [Combined Sector and Word Generator](https://inexorabletash.github.io/model2/article2/sectorgen2.html)
 
