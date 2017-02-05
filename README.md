@@ -5,7 +5,7 @@ the web environment for creating tools for the Traveller RPG.
 
 >  _"Traveller has always been an easy game to mate to a computer."_
 
-So begins Marc W. Miller's first entry in a short-lived column in _The Journal of the Travellers' Aid Society_ and _Challenge_ magazines, issues 24, 25 and 26. This series of articles, published in the Stellar Reaches fanzine revisits the series with the goal of teaching introductory programming to a whole new generation of TRAVELLER players.
+So begins Marc W. Miller's first entry in a short-lived column in _The Journal of the Travellers' Aid Society_ and _Challenge_ magazines, issues 24, 25 and 26. This series of articles, originally published in the _Stellar Reaches_ fanzine, revisits the series with the goal of teaching introductory programming to a whole new generation of _TRAVELLER_ players.
 
 ## Part 1: Introduction and Temperature Calculation 
 
