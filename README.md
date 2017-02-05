@@ -7,17 +7,17 @@ the web environment for creating tools for the Traveller RPG.
 
 So begins Marc W. Miller's first entry in a short-lived column in The Journal of the Travellers' Aid Society and Challenge magazines, issues 24, 25 and 26. This series of articles, published in the Stellar Reaches fanzine revisits the series with the goal of teaching introductory programming to a whole new generation of TRAVELLER players.
 
-## Part 1: Introduction and Temperature Calculation (from Stellar Reaches #8)
+## Part 1: Introduction and Temperature Calculation 
 
-[Article](article1/content.md)
+[Article](article1/content.md) - originally published in [Stellar Reaches #8](http://stellarreaches.nwgamers.org/wp-content/uploads/2010/09/sr_fanzine_08.pdf#page=70)
 
 [World Temperature Calculation](https://inexorabletash.github.io/model2/article1/tempcalc.html)
 
 * [page source](article1/tempcalc.html)
 
-## Part 2: Word and Sector Generation (from Stellar Reaches #10)
+## Part 2: Word and Sector Generation
 
-[Article](article2/content.md)
+[Article](article2/content.md) - originally published in [Stellar Reaches #10](http://stellarreaches.nwgamers.org/wp-content/uploads/2010/12/sr_fanzine_10f.pdf#page=5)
 
 [Random Word Generator](https://inexorabletash.github.io/model2/article2/wordgen.html)
 
