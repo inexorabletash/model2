@@ -34,4 +34,6 @@ So begins Marc W. Miller's first entry in a short-lived column in _The Journal o
 * [page source](article2/sectorgen2.html)
 * [script source](article2/sectorgen2.js)
 
+----
+
 _The Traveller game in all forms is owned by [Far Future Enterprises](http://farfuture.net/). Copyright © 1977 - 2014 Far Future Enterprises._
