@@ -2,7 +2,7 @@ Using Your Model/2 bis, Revisited
 =================================
 By Joshua Bell
 
-> "Traveller has always been an easy game to mate to a computer."
+> _"Traveller has always been an easy game to mate to a computer."_
 
 So begins Marc W. Miller's first entry in a short-lived column in _The
 Journal of the Travellers' Aid Society_ and _Challenge_ magazines, issues
