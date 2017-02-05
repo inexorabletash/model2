@@ -9,29 +9,29 @@ So begins Marc W. Miller's first entry in a short-lived column in The Journal of
 
 ## Part 1 (from Stellar Reaches #8)
 
-[Article](https://github.com/inexorabletash/model2/blob/master/article1/content.md)
+[Article](article1/content.md)
 
 [World Temperature Calculation](https://inexorabletash.github.io/model2/article1/tempcalc.html)
 
-* [page source](https://github.com/inexorabletash/model2/blob/master/article1/tempcalc.html)
+* [page source](article1/tempcalc.html)
 
 ## Part 2 (from Stellar Reaches #10)
 
-[Article](https://github.com/inexorabletash/model2/blob/master/article2/content.md)
+[Article](article2/content.md)
 
 [Random Sector Generator](https://inexorabletash.github.io/model2/article2/sectorgen.html)
 
-* [page source](https://github.com/inexorabletash/model2/blob/master/article2/sectorgen.html)
-* [script source](https://github.com/inexorabletash/model2/blob/master/article2/sectorgen.js)
+* [page source](article2/sectorgen.html)
+* [script source](article2/sectorgen.js)
 
 [Random Word Generator](https://inexorabletash.github.io/model2/article2/wordgen.html)
 
-* [page source](https://github.com/inexorabletash/model2/blob/master/article2/wordgen.html)
-* [script source](https://github.com/inexorabletash/model2/blob/master/article2/wordgen.js)
+* [page source](article2/wordgen.html)
+* [script source](article2/wordgen.js)
 
 [Combined Sector and Word Generator](https://inexorabletash.github.io/model2/article2/sectorgen2.html)
 
-* [page source](https://github.com/inexorabletash/model2/blob/master/article2/sectorgen2.html)
-* [script source](https://github.com/inexorabletash/model2/blob/master/article2/sectorgen2.js)
+* [page source](article2/sectorgen2.html)
+* [script source](article2/sectorgen2.js)
 
 _The Traveller game in all forms is owned by [Far Future Enterprises](http://farfuture.net/). Copyright © 1977 - 2014 Far Future Enterprises._
